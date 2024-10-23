@@ -1,10 +1,10 @@
-package alejando.murcia.app_mvvm.Model
+package alejando.murcia.app_mvvm.MVVM.Model
 
 import kotlin.random.Random
 
 class ProveedorCitas {
     companion object {
-        fun getCitaAleatoria() : mdlCitas{
+        fun getCitaAleatoria() : mdlCitas {
             val posicion = (0..10).random()
             return listaCitas[posicion]
         }

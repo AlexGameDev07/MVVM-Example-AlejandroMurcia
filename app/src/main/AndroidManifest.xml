@@ -15,7 +15,10 @@
         android:theme="@style/Theme.App_MVVM"
         tools:targetApi="31">
         <activity
-            android:name=".View.MainActivity"
+            android:name=".CleanArchitecture.ActivityCleanArchitecture"
+            android:exported="false" />
+        <activity
+            android:name=".MVVM.View.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

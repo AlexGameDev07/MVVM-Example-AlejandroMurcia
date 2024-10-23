@@ -47,6 +47,8 @@ dependencies {
 
     // Fragment
     implementation(libs.androidx.fragment.ktx)
+    //Activity
+    implementation(libs.androidx.activity.ktx)
     // ViewModel
     implementation(libs.androidx.lifecycle.viewmodel.ktx)
     // LiveData

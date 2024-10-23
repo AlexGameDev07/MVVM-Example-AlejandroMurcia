@@ -1,7 +1,7 @@
-package alejando.murcia.app_mvvm.ViewModel
+package alejando.murcia.app_mvvm.MVVM.ViewModel
 
-import alejando.murcia.app_mvvm.Model.ProveedorCitas
-import alejando.murcia.app_mvvm.Model.mdlCitas
+import alejando.murcia.app_mvvm.MVVM.Model.ProveedorCitas
+import alejando.murcia.app_mvvm.MVVM.Model.mdlCitas
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 

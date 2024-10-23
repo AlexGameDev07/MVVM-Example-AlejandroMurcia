@@ -1,7 +1,7 @@
-package alejando.murcia.app_mvvm.View
+package alejando.murcia.app_mvvm.MVVM.View
 
 import alejando.murcia.app_mvvm.R
-import alejando.murcia.app_mvvm.ViewModel.CitasViewModel
+import alejando.murcia.app_mvvm.MVVM.ViewModel.CitasViewModel
 import alejando.murcia.app_mvvm.databinding.ActivityMainBinding
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
@@ -13,6 +13,8 @@ import androidx.lifecycle.Observer
 
 
 class MainActivity : AppCompatActivity() {
+
+    //Todo está programado en base a datos locales
 
     // Esta variable se utiliza para acceder a la vista (layout) inflada.
     private lateinit var binding: ActivityMainBinding
@@ -31,6 +33,7 @@ class MainActivity : AppCompatActivity() {
         // Aquí se infla el layout asociado a la actividad usando `ActivityMainBinding.inflate(layoutInflater)`.
         // Esto permite vincular las vistas del XML con código Kotlin.
         binding = ActivityMainBinding.inflate(layoutInflater)
+
 
         // Se establece el contenido de la actividad con la raíz de la vista inflada.
         setContentView(binding.root)
